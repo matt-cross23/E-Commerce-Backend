@@ -1,2 +1,20 @@
-[InternetShortcut]
-URL=https://upenn.bootcampcontent.com/upenn-bootcamp/upenn-phi-virt-fsf-pt-08-2021-u-c/-/blob/master/01-Activities/13-ORM/02-Homework/Develop/models/index.js
+// import models
+const Product = require('./Product');
+const Category = require('./Category');
+const Tag = require('./Tag');
+const ProductTag = require('./ProductTag');
+
+// Products belongsTo Category
+
+// Categories have many Products
+
+// Products belongToMany Tags (through ProductTag)
+
+// Tags belongToMany Products (through ProductTag)
+
+module.exports = {
+  Product,
+  Category,
+  Tag,
+  ProductTag,
+};
