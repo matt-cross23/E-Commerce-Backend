@@ -1,0 +1,26 @@
+{
+  "name": "E-Commerce-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-cross23/E-Commerce-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-cross23/E-Commerce-Backend/issues"
+  },
+  "homepage": "https://github.com/matt-cross23/E-Commerce-Backend#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
