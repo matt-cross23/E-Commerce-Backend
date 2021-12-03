@@ -11,22 +11,22 @@ Product.init(
   {
     // define columns
     id: { 
-    type: dataTypes.INTEGER,
+    type: DataTypes.INTEGER,
     allowNull: false,
     pimaryKey: true,
     auto_increment: true,
   },
     product_name: {
-  dataTypes.String,
+  type: DataTypes.String,
   allowNull: false,
   },
    price: { 
-   type: dataTypes.DECIMAL(5,2),
+   type: DataTypes.DECIMAL(5,2),
      allowNull: false,
      isDecimal: true,
    },
    stock: { 
-     type: dataTypes.INTEGER,
+     type: DataTypes.INTEGER,
      allowNull: false,
      defaultValue: 10,
      isNumeric: true,
