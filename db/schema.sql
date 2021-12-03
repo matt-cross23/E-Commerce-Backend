@@ -34,6 +34,6 @@ CREATE TABLE Tag(
     tag_id INT 
     FOREIGN KEY(product_id) 
     REFERENCES Product(id)
-    REFERENCES
+    REFERENCES Tag(id)
     PRIMARY KEY(id)
 )
