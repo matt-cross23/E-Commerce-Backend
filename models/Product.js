@@ -11,7 +11,7 @@ Product.init(
   {
     // define columns
     id: { 
-    type: Data.Types.INTEGER,
+    type: dataTypes.INTEGER,
     allowNull: false,
     pimaryKey: true,
     auto_increment: true,
@@ -21,18 +21,18 @@ Product.init(
   allowNull: false,
   },
    price: { 
-   type: Data.Types.DECIMAL(5,2),
+   type: dataTypes.DECIMAL(5,2),
      allowNull: false,
      isDecimal: true,
    },
    stock: { 
-     type: Data.Types.INTEGER,
+     type: dataTypes.INTEGER,
      allowNull: false,
      defaultValue: 10,
      isNumeric: true,
    },
     category_id:{
-      type: Data.Type.INTEGER,
+      type: dataTypes.INTEGER,
       references: {
         model: 'Category'
         key: 'id'
