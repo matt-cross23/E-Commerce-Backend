@@ -15,6 +15,7 @@
 
   ## Description
   E-commerce backend application that creates,deletes, updates, and reads products, categories, and tags
+  https://youtu.be/ktx0y3oLLQo
 
   ## Installation
   clone repo and run npm start to run server 
