@@ -13,11 +13,11 @@ Product.init(
     id: { 
     type: DataTypes.INTEGER,
     allowNull: false,
-    pimaryKey: true,
-    auto_increment: true,
+    primaryKey: true,
+    autoIncrement: true,
   },
     product_name: {
-  type: DataTypes.String,
+  type: DataTypes.STRING,
   allowNull: false,
   },
    price: { 
@@ -32,12 +32,13 @@ Product.init(
      isNumeric: true,
    },
     category_id:{
-      type: dataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
-        model: 'Category'
+        model: 'category',
         key: 'id'
       }
-    },
+    }
+  },
   {
     sequelize,
     timestamps: false,
