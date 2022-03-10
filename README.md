@@ -16,7 +16,7 @@
   This project builds off starter code to configure a backend application which uses "Express" to create a server that handles the database queries and "Sequelize" to interact with the database to produce the data for queries.
   This E-commerce backend application creates, deletes, updates, and reads products, categories, and tags to mimic the functionality of a professional e-commerce application.
   
-  (Here's the walkthrough link)[https://youtu.be/ktx0y3oLLQo]
+  [Here's the walkthrough link](https://youtu.be/ktx0y3oLLQo)
 
   ## Installation
   clone repo and run npm start to run server 
